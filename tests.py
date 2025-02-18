@@ -6,7 +6,7 @@ class TestCase(unittest.TestCase):
         input = "abcdefg"
         self.assertFalse(check_pwd(input))
     
-    def test3(self):
+    def test2(self):
         input = "abcdefgabcdefgabcdefg"
         self.assertFalse(check_pwd(input))
 
